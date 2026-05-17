@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>quietthings — short-form cinematic monologues</title>
+<meta name="description" content="quietthings is a short-form video project. Cinematic monologues from everyday objects, posted daily.">
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --fg: #e8e8e8;
+    --muted: #888;
+    --accent: #c9a96e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Georgia, serif;
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1.5rem;
+    text-align: center;
+  }
+  .container {
+    max-width: 560px;
+    width: 100%;
+  }
+  h1 {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+  }
+  .tagline {
+    color: var(--muted);
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    font-style: italic;
+  }
+  .description {
+    color: var(--fg);
+    margin-bottom: 3rem;
+    font-size: 1.05rem;
+  }
+  .description p { margin-bottom: 1rem; }
+  .links {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #222;
+  }
+  .links a {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  .links a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 4rem;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  .tiktok-handle {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  .tiktok-handle:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>quietthings</h1>
+  <p class="tagline">things in your house have been waiting to speak.</p>
+
+  <div class="description">
+    <p>A short-form video project publishing original cinematic monologues from everyday objects — kettles, houseplants, baby monitors, rearview mirrors. Some are unsettling. Some are sad. All are short.</p>
+    <p>New monologue daily.</p>
+  </div>
+
+  <a class="tiktok-handle" href="https://www.tiktok.com/@quietthings6" target="_blank" rel="noopener">@quietthings6 on TikTok →</a>
+
+  <div class="links">
+    <a href="terms.html">Terms of Service</a>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="mailto:quietthings.tiktok@gmail.com">Contact</a>
+  </div>
+
+  <footer>
+    © 2026 quietthings · An independent creative project
+  </footer>
+</div>
+</body>
+</html>
